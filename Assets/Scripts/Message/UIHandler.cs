@@ -169,7 +169,7 @@ namespace Firebase.Sample.Messaging {
                 LargeIcon = "app_icon"
             };
 
-            NotificationManager.SendCustom(notificationParams);
+            //NotificationManager.SendCustom(notificationParams);
         }
 
     public virtual void OnTokenReceived(object sender, Firebase.Messaging.TokenReceivedEventArgs token) {
